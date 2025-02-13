@@ -18,7 +18,7 @@ export function Navbar() {
         </li>
       </ul>
 
-      <section className="flex flex-row items-center gap-3">
+      <section className="flex flex-row items-center gap-3 cursor-pointer">
         <span className="material-icons block" style={{ fontSize: 32 }}>
           account_circle
         </span>
