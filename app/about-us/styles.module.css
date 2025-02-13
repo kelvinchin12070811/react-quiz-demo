@@ -1,7 +1,0 @@
-.heroContainer {
-    background: rgba(0, 0, 0, 0.6) url("/bg.jpg");
-    background-blend-mode: multiply;
-    height: 60vh;
-    background-size: cover;
-    background-position: center;
-}

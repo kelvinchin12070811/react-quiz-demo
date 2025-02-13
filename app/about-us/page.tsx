@@ -1,13 +1,20 @@
 import { Navbar } from "../components/Navbar";
 import { ContentSection } from "./ContentSection";
-import styles from "./styles.module.css";
+import bg from "@/public/bg.jpg";
 
 export default function AboutUsPage() {
   return (
     <main>
       <Navbar />
       <div
-        className={`${styles.heroContainer} flex flex-col justify-center align-middle gap-4`}
+        className="flex flex-col justify-center align-middle gap-4"
+        style={{
+          height: "60vh",
+          background: `rgba(0, 0, 0, 0.6) url("${bg.src}")`,
+          backgroundBlendMode: "multiply",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
       >
         <h1 className="text-center text-5xl">About Us</h1>
         <p className="text-center text-xl">

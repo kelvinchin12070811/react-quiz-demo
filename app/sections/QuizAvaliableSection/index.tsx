@@ -1,4 +1,6 @@
 import { QuizCard } from "./QuizCard";
+import melacca from "@/public/melacca.jpg";
+import peanang from "@/public/peanang.jpg";
 
 export function QuizAvaliableSection() {
   return (
@@ -9,8 +11,8 @@ export function QuizAvaliableSection() {
       </h1>
 
       <section className="flex flex-row gap-5 my-5 flex-wrap">
-        <QuizCard title="Melaka" heroImage="/melacca.jpg" onClick={() => {}} />
-        <QuizCard title="Peanang" heroImage="/peanang.jpg" onClick={() => {}} />
+        <QuizCard title="Melaka" heroImage={melacca.src} onClick={() => {}} />
+        <QuizCard title="Peanang" heroImage={peanang.src} onClick={() => {}} />
       </section>
     </main>
   );
