@@ -3,6 +3,7 @@ import { QuizCard } from "./QuizCard";
 export function QuizAvaliableSection() {
   return (
     <main className="bg-gray-200 p-9">
+      <a id="quiz" />
       <h1 className="text-gray-800 font-bold text-2xl text-center">
         Quizes That Are Available
       </h1>
