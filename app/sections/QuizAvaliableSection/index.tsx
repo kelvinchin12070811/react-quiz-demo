@@ -9,7 +9,7 @@ export function QuizAvaliableSection() {
 
       <section className="flex flex-row gap-5 my-5 flex-wrap">
         <QuizCard title="Melaka" heroImage="/melacca.jpg" onClick={() => {}} />
-        <QuizCard title="Melaka" heroImage="/melacca.jpg" onClick={() => {}} />
+        <QuizCard title="Peanang" heroImage="/peanang.jpg" onClick={() => {}} />
       </section>
     </main>
   );
